@@ -49,3 +49,10 @@ body {
 .panel.active {
   flex: 5
 }
+
+@media (max-width: 520px){
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
